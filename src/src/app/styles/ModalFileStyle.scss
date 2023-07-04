@@ -1,0 +1,165 @@
+.cv-img .ant-image-mask.ant-image-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+}
+.resume-img .ant-image-mask {
+  border: 2px solid black;
+}
+.form-file .ant-input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-radius: 6px;
+  width: 94%;
+}
+.ant-btn {
+  border-radius: 6px;
+}
+.ant-btn:is(:hover, :focus) {
+  outline-offset: 3px;
+}
+.cv aside h4 {
+  margin: 10% 0;
+  font-weight: 600;
+  color: white;
+}
+.cv h5 {
+  font-weight: 500;
+  margin: 10% 0 0 0;
+}
+.cv p {
+  margin-left: 5px;
+}
+.cv header {
+  background-color: white;
+  color: #000000;
+  padding-top: 10%;
+  padding-left: 5%;
+  height: 130px;
+}
+
+.cv main textarea.ant-input {
+  width: 94%;
+}
+main {
+  padding-left: 5%;
+  margin-top: 6%;
+}
+main h4 {
+  font-weight: 600;
+  margin: 5% 0;
+}
+main .ant-form-item {
+  margin-bottom: 5px;
+}
+main .ant-picker {
+  border-radius: 6px;
+  width: 94%;
+}
+.btn-action {
+  z-index: 99;
+  position: absolute;
+  bottom: -45px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  left: 0px;
+  right: 0px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-top: 1px solid #d9d9d9;
+}
+.btn-action .ant-btn {
+  margin-right: 2%;
+}
+.resume .ant-input {
+  border: none;
+  border-bottom: 1px dotted #000000;
+  border-radius: 0%;
+}
+.resume label {
+  font-weight: normal;
+  margin: 0px;
+}
+.resume {
+  font-family: "Times New Roman", Times, serif;
+}
+.content .ant-col {
+  height: 35px;
+}
+.content {
+  margin-left: 2%;
+}
+.content .ant-input {
+  width: 100%;
+}
+.card-work-exp {
+  h5 {
+    margin: 0;
+  }
+  .company {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .head {
+    margin-top: 4%;
+  }
+}
+.cv {
+  .name {
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  aside {
+    h5,
+    p {
+      color: white;
+      margin: 4%;
+    }
+    h5 {
+      font-size: medium;
+    }
+  }
+  .careerGoal {
+    h5 {
+      margin: 4% 0;
+      font-size: medium;
+    }
+  }
+}
+.resume,
+.certificates {
+  table,
+  th,
+  tr,
+  td {
+    border-radius: 0%;
+    border: #515151 1px double;
+  }
+  .ant-table-wrapper
+    .ant-table-container
+    table
+    > thead
+    > tr:first-child
+    > *:first-child,
+  .ant-table-wrapper
+    .ant-table-container
+    table
+    > thead
+    > tr:first-child
+    > *:last-child {
+    border-radius: 0%;
+  }
+}
+.modal-reject{
+  .ant-picker{
+    width: 100%;
+  }
+}
+.resume{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+

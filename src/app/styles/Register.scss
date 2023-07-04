@@ -1,0 +1,40 @@
+.input {
+    border: none;
+    outline: none;
+    padding: 10px ;
+}
+.input:hover{
+    border: 1px dashed black;
+}
+input[type="text"]::placeholder {
+    color: black;
+}
+.fullwidth{
+    width: 100%;
+}
+.dflex{
+    display: flex;
+    margin: 10px 0;
+}
+.icon-info{
+    padding-top:7px ;
+}
+.input-icon{
+    // border: none;
+    width: 100%;
+    outline: none;
+    
+}
+h3{
+    margin: 5px 0;
+}
+.input-name,.input-position{
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 10px 5px;
+    width: 95% ;
+}
+.muctieu,.kynang,.sothich{
+    margin: 5px 0;
+    width: 91%;
+}

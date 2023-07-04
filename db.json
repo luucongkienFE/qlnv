@@ -1,0 +1,89 @@
+{
+  "employeeInformation": [
+    {
+      "fullName": "àdsfs",
+      "gender": "dfsdfs",
+      "phone": "dfsdfsdf",
+      "email": "dewff",
+      "code": "sdfsdf",
+      "idCard": "sdfsdfsd",
+      "address": "fsdf",
+      "birthDate": "sdfsdf",
+      "id": 1
+    },
+    {
+      "fullName": "sdfsd",
+      "gender": "fsdf",
+      "phone": "sdf",
+      "email": "sdvdf",
+      "code": "fdsfsd",
+      "idCard": "fsdfds",
+      "address": "fsdfsd",
+      "birthDate": "sdfdsfsd",
+      "id": 2
+    },
+    {
+      "fullName": "lckien",
+      "gender": "nam",
+      "phone": "0326777817",
+      "email": "kkkkk@gmail.com",
+      "code": "123456",
+      "idCard": "0300000000",
+      "address": "xóm1",
+      "birthDate": "1999-10-03",
+      "religion": "ko",
+      "nation": "kinh",
+      "placeOfBirth": "nam định",
+      "issueDate": "2023-03-28",
+      "salary": "20000000",
+      "id": 3
+    }
+  ],
+  "listDiploma": [
+    {
+      "diplomaName": "Bằng cử nhân2",
+      "content": "Công nghệ thông tin",
+      "issuedate": "2023-02-04",
+      "fieldName": "Tin học",
+      "placeOfBirth": "Trường đại học GTVT",
+      "id": "3e825244-3770-4c5d-8c4c-8e630b8d00f4"
+    }
+  ],
+  "listRelationship": [
+    {
+      "relationName": "Phan Uy02",
+      "gender": "Nam",
+      "birthDate": "2023-02-03",
+      "relationship": "Mẹ",
+      "province": {
+        "name": "Effertztown"
+      },
+      "district": {
+        "name": "Scottsdale"
+      },
+      "commune": {
+        "name": "Tonga"
+      },
+      "address": "Ha Nam Viet Nam",
+      "id": "575aea14-e732-4356-9005-c059bea74838"
+    }
+  ],
+  "province": [
+    {
+      "name": "Thành phố Hà Nội",
+      "code": 1,
+      "division_type": "thành phố trung ương",
+      "codename": "thanh_pho_ha_noi",
+      "phone_code": 24,
+      "districts": []
+    },
+    {
+      "name": "Tỉnh Hà Giang",
+      "code": 2,
+      "division_type": "tỉnh",
+      "codename": "tinh_ha_giang",
+      "phone_code": 219,
+      "districts": []
+    }
+  ]
+}

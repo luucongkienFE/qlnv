@@ -1,0 +1,95 @@
+.curriculum {
+    .grid-text {
+        display: flex;
+        margin-top: 20px;
+
+        .title-text {}
+
+        .title-name {
+            width: 100px;
+        }
+
+        .title-gender {
+            width: 85px;
+        }
+
+        .title-birthdate {
+            width: 100px;
+        }
+
+        .title-phone {
+            width: 135px;
+        }
+
+        .title-email {
+            width: 60px;
+        }
+
+        .title-address {
+            width: 150px;
+        }
+
+        .title-ethnicity {
+            width: 85px;
+        }
+
+        .title-religion {
+            width: 85px;
+        }
+
+        .title-citizen {
+            width: 100px;
+        }
+
+        .title-daterange {
+            width: 100px;
+        }
+
+        .title-place-of-grant {
+            width: 85px;
+        }
+
+        .MuiInput-underline:before {
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
+        }
+
+        .MuiInput-underline:hover:not(.Mui-disabled):before {
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
+        }
+
+        // .MuiInputBase-multiline {
+        //          padding: 0;
+        // }
+        //         .MuiInputBase-multiline:focus {
+        //             padding: 3px;
+        //         }
+    }
+
+    .MuiGrid-root {
+
+        .MuiAvatar-root {
+            border-radius: none;
+        }
+    }
+
+    .sec1 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .sec2-curriculum {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .sec2-narrative {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .sec1-text {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+}
